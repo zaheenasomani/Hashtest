@@ -40,14 +40,6 @@ Browse and select file.
 ===============================================================================
 
 
-===============================PROJECT FILES====================================
-
-index.html - Creates an html website that allows to upload a file.
-index.py - python script that is invoked on index.html submit button. It analyses the hash values using the API and stores the result in SQL database. It views the output in HTML TABLE format.
-
-================================================================================
-
-
 ==============================DEPENDENCIES======================================
 
 Install virustotal-api using pip
@@ -57,20 +49,5 @@ sudo pip install virustotal-api
 Install HTML.py module from (https://www.decalage.info/python/html#attachments)
 
 =================================================================================
-
-
-=============================ISSUES==============================================
-
-Intially I had an issue to invoke the python script from the html form.
-Using cgi-script I was able to solve that issue.
-
-I was having trouble displaying the results as and html table.
-I found a module HTML.py that can build htmltable in python.
-
-(NOT SOLVED)
-In order to retrieve the existing record from the file I tried to check the database(hash field) for the text file values.
-If it returns true than than it is displayed otherwise fetched from api.
-
-==================================================================================
 
 
