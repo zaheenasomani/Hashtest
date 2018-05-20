@@ -2,6 +2,7 @@
 
 
 ===================INSTRUCTIONS===================================
+
 -Install Apache, mysql, python on linux
 
 -Register Python with Apache.
@@ -27,7 +28,7 @@ DocumentRoot /var/www/dirname
 
 -Run mysql: mysql -u root -p
 
--Create Database:db 
+-Create Database:test 
 -CREATE TABLE output (hash VARCHAR(50), detection_names VARCHAR(50), engines_detected INT, scan_date DATE)
 
 
@@ -47,7 +48,5 @@ Install virustotal-api using pip
 sudo pip install virustotal-api
 
 Install HTML.py module from (https://www.decalage.info/python/html#attachments)
-
-=================================================================================
 
 
